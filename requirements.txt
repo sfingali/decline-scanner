@@ -7,8 +7,3 @@ ta>=0.11.0
 lxml>=4.9
 html5lib>=1.1
 beautifulsoup4>=4.12
-
-Notes
-
-pandas.read_html needs an HTML parser; having lxml (and html5lib/bs4 as backups) makes Wikipedia table parsing reliable on Streamlit Cloud pip.pypa.io docs.discloud.com.
-If you want fully reproducible builds, pin exact versions (==) or freeze from your working env: pip freeze > requirements.txt geeksforgeeks.org.
